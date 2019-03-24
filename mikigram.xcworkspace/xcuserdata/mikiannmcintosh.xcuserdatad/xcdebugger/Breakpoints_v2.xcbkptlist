@@ -6,11 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mikigram/FeedViewController.swift"
-            timestampString = "575077180.042122"
+            timestampString = "575082756.494519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -19,33 +19,33 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "mikigram.FeedViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mikigram.FeedViewController"
                   moduleName = "mikigram"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mikiannmcintosh/Desktop/CodePath%20/mikigram/mikigram/FeedViewController.swift"
-                  timestampString = "575077180.549265"
+                  timestampString = "575081037.656527"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "57">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "mikigram.FeedViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mikigram.FeedViewController&gt;"
                   moduleName = "mikigram"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mikiannmcintosh/Desktop/CodePath%20/mikigram/mikigram/FeedViewController.swift"
-                  timestampString = "575077180.5518939"
+                  timestampString = "575081037.659802"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "50">
                </Location>
             </Locations>
@@ -58,29 +58,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mikigram/FeedViewController.swift"
-            timestampString = "575077180.0422601"
+            timestampString = "575082756.494759"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
             endingLineNumber = "16"
             landmarkName = "FeedViewController"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "mikigram/PostCell.swift"
-            timestampString = "575077620.292151"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "PostCell"
-            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mikigram.FeedViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mikigram.FeedViewController"
+                  moduleName = "mikigram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikiannmcintosh/Desktop/CodePath%20/mikigram/mikigram/FeedViewController.swift"
+                  timestampString = "575081130.98884"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mikigram.FeedViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mikigram.FeedViewController&gt;"
+                  moduleName = "mikigram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikiannmcintosh/Desktop/CodePath%20/mikigram/mikigram/FeedViewController.swift"
+                  timestampString = "575081130.9944561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
