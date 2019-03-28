@@ -8,6 +8,7 @@ target 'mikigram' do
   # Pods for mikigram
   pod "Parse"
   pod "AlamofireImage" 
+  pod "MessageInputBar"
 
   target 'mikigramTests' do
     inherit! :search_paths

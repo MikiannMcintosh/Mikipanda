@@ -18,6 +18,7 @@
 		A31B276F2244F1F2000F84C0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B276E2244F1F2000F84C0 /* FeedViewController.swift */; };
 		A31B27732246BA8D000F84C0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B27722246BA8D000F84C0 /* CameraViewController.swift */; };
 		A31B27752246EB03000F84C0 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B27742246EB03000F84C0 /* PostCell.swift */; };
+		A39081BB224D07D6000D59AD /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39081BA224D07D6000D59AD /* CommentCell.swift */; };
 		D63B00DE35CE51491E0DEC76 /* Pods_mikigramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD11B6152C67600349076BD6 /* Pods_mikigramUITests.framework */; };
 		E35CDA7F4633F6F6B2F1EA6F /* Pods_mikigramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB65D75D0E353DE891855D8 /* Pods_mikigramTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		A31B276E2244F1F2000F84C0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A31B27722246BA8D000F84C0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A31B27742246EB03000F84C0 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A39081BA224D07D6000D59AD /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		AD11B6152C67600349076BD6 /* Pods_mikigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mikigramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C9D84C350A1A661289588B /* Pods-mikigramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mikigramTests.release.xcconfig"; path = "Target Support Files/Pods-mikigramTests/Pods-mikigramTests.release.xcconfig"; sourceTree = "<group>"; };
 		C55F68A86108116E0A128DC8 /* Pods-mikigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mikigram.release.xcconfig"; path = "Target Support Files/Pods-mikigram/Pods-mikigram.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				A31B276E2244F1F2000F84C0 /* FeedViewController.swift */,
 				A31B27722246BA8D000F84C0 /* CameraViewController.swift */,
 				A31B27742246EB03000F84C0 /* PostCell.swift */,
+				A39081BA224D07D6000D59AD /* CommentCell.swift */,
 			);
 			path = mikigram;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -370,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				A31B276F2244F1F2000F84C0 /* FeedViewController.swift in Sources */,
 				A319103D224453D0006E293A /* AppDelegate.swift in Sources */,
 				A31B27752246EB03000F84C0 /* PostCell.swift in Sources */,
+				A39081BB224D07D6000D59AD /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

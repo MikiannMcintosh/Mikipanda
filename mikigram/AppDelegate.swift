@@ -24,6 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     configuration.server = "https://powerful-wave-22136.herokuapp.com//parse"
                 })
             )
+        if PFUser.current() != nil{
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNaviationController = main.instantiateViewController(withIdentifier: "FeedNaviagtionController")
+            
+            window?.rootViewController = feedNaviationController
+            
+        }
+        
         
         return true
     }
